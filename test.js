@@ -8,7 +8,7 @@ function onSignIn(googleUser) {
     var delayInMilliseconds = 1000; //1 second
 
 setTimeout(function() {
-    window.open("home.html");
+    window.location.href = 'https://wizardly-goldwasser-cdf402.netlify.app'; 
   //your code to be executed after 1 second
 }, delayInMilliseconds);
    
